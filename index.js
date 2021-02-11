@@ -1,6 +1,6 @@
 const vowels = "aeiou".split("")
 const consonants = "yqwrtypsdfghjklzxcvbnm".split("")
-const str = "closed"
+const str = "1212"
 
 const q = "q"
 const u = "u"
@@ -8,7 +8,7 @@ const s = "s"
 
 function PigLatinTranslator(str) {
   strArray = str.split("")
-  for (i=0; i < strArray.length; i++) {
+  for (i=0; i < 1; i++) {
     if (vowels.includes(strArray[0])) {
       return str + "way";
     } else if(s.includes(strArray[0]) && q.includes(strArray[1]) && u.includes(strArray[2])) {
